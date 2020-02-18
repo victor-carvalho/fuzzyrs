@@ -1,0 +1,14 @@
+[package]
+name = "fuzzyrs"
+version = "0.1.0"
+authors = ["Victor Carvalho <carvalhogvm@gmail.com>"]
+edition = "2018"
+description = """
+fuzzyrs is a fuzzy finder tool written in Rust inspired by fzf
+"""
+license = "Unlicense OR MIT"
+
+[dependencies]
+walkdir = "2"
+rayon = "1.3"
+crossbeam = "0.7"
